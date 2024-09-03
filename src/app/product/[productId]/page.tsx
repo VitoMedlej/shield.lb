@@ -183,7 +183,7 @@ const Index = () => {
                  {/* ${
                  selectedSize?.price ||
                  data?.product?.price || 0} */}
-             {data?.product?.newPrice ? data?.product?.newPrice : data?.product?.price}
+             ${data?.product?.newPrice ? data?.product?.newPrice : data?.product?.price}
              </Typography>}
 
                   <Divider></Divider>

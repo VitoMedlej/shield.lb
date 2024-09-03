@@ -180,9 +180,10 @@ const Index = () => {
           {data?.product?.inStock !== false &&   <Typography 
                  component={'h1'} sx={{
                   my:.25,fontWeight:600,fontSize:{xs:'.9em',sm:'1em'}}}>
-                 ${
+                 {/* ${
                  selectedSize?.price ||
-                 data?.product?.price || 0}
+                 data?.product?.price || 0} */}
+             {data?.product?.newPrice ? data?.product?.newPrice : data?.product?.price}
              </Typography>}
 
                   <Divider></Divider>
@@ -222,12 +223,10 @@ const Index = () => {
              
              <QuantityPicker 
                     onChange={(e:number)=>{setSelectedQuantity(e)}}
-                    
                     min={1} max={10} value={selectedQuantity}/>
-            
              <Btn 
              v2
-                     onClick={()=>addToCart(selectedQuantity,`${data?.product?._id}`,{title : data.product.title ,category: data.product.category,img:data.product.images[0], _id : data.product._id,price:selectedSize?.price ? selectedSize?.price : data?.product?.price, productselectedSize:selectedSize?.size,productselectedColor: productselectedColor || `${data?.product?.colors ? data?.product?.colors[0] : null}`},true,true)}
+                     onClick={()=>addToCart(selectedQuantity,`${data?.product?._id}`,{title : data.product.title ,category: data.product.category,img:data.product.images[0], _id : data.product._id,price:data?.product?.newPrice ? data?.product?.newPrice : data?.product?.price, productselectedSize:selectedSize?.size,productselectedColor: productselectedColor || `${data?.product?.colors ? data?.product?.colors[0] : null}`},true,true)}
              
               sx={{gap:.5,
                 borderRadius:0,

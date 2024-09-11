@@ -86,7 +86,7 @@ export default function Navbar() {
                             }}
                         >
                             <img 
-                            src="https://ucarecdn.com/0e233b8c-0b1a-438b-ac58-019da36991d8/shieldlogosmaller.jpg" alt="ShieldLOGO" className="img contain" />
+                            src="https://ucarecdn.com/78ec836e-b9df-49f6-babd-48de9dd1598c/shieldlogosmall.JPG" alt="ShieldLOGO" className="img contain" />
                         </Box>
 
 

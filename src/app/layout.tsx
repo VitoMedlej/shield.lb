@@ -11,7 +11,7 @@ export const metadata = {
     title: `Shop Stylish Sportswear in Lebanon | Shield Lb`,
     description: `Discover stylish and comfortable sportswear at Shield Lb in Lebanon. Shop gym wear in various colors and elevate your workout with our premium collection.`,
     icons: {
-        icon: `https://ucarecdn.com/0e233b8c-0b1a-438b-ac58-019da36991d8/shieldlogosmaller.jpg`
+        icon: `https://ucarecdn.com/78ec836e-b9df-49f6-babd-48de9dd1598c/shieldlogosmall.JPG`
     }
 }
 

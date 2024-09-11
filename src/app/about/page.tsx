@@ -14,7 +14,7 @@ const Index = () => {
             ABOUT US | Shield Lb
         </Typography>
         <Box sx={{width:'100%',height:'200px'}}>
-            <img src="https://ucarecdn.com/0e233b8c-0b1a-438b-ac58-019da36991d8/shieldlogosmaller.jpg" alt="" className="img contain" />
+            <img src="https://ucarecdn.com/78ec836e-b9df-49f6-babd-48de9dd1598c/shieldlogosmall.JPG" alt="" className="img contain" />
         </Box>
     
         <Box sx={{my:4}}>

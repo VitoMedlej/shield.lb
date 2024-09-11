@@ -20,7 +20,7 @@ const Footer = () => (
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675713948/logo_sktnut_1_jwy2hk.png */}
             <img className='img contain'
             
-            src='https://ucarecdn.com/0e233b8c-0b1a-438b-ac58-019da36991d8/shieldlogosmaller.jpg' alt="Pets Town Lebanon Logo" />
+            src='https://ucarecdn.com/78ec836e-b9df-49f6-babd-48de9dd1598c/shieldlogosmall.JPG' alt="Pets Town Lebanon Logo" />
             </Link>
           </div>
           <Typography component='p' sx={{ fontSize: '.85em',color:"black" }}  className='footer-p '>
